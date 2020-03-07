@@ -1,5 +1,5 @@
 baseurl = "https://tacgomes.gitlab.io/blog/"
-title = "Me boring blog"
+title = "#FIXME Blog"
 metaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 theme = "beautifulhugo"
