@@ -1,0 +1,23 @@
+baseurl: 'https://tacgomes.gitlab.io/blog/'
+title: '#FIXME Blog'
+metaDataFormat: yaml
+DefaultContentLanguage: en
+theme: beautifulhugo
+
+Permalinks:
+  post: '/:year/:month/:day/:filename/'
+
+Params:
+  dateFormat: 'January 2, 2006'
+  rss: true
+
+Author:
+  name: Tiago Gomes
+  gitlab: tacgomes
+  linkedin: tiagoacgomes
+
+menu:
+  main:
+    - name: About
+      url: page/about/
+      weight: 3
