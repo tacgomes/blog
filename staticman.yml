@@ -1,0 +1,18 @@
+comments:
+  branch: master
+  format: yaml
+  path: data/comments/{options.slug}
+  filename: comment-{@timestamp}
+  commitMessage : New comment from {fields.name}
+  allowedFields:
+    - name
+    - comment
+    - replyThread
+    - replyName
+    - replyID
+  requiredFields:
+    - name
+    - comment
+  generatedFields:
+    date:
+      type: date

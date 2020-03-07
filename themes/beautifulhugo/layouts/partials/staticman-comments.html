@@ -56,18 +56,6 @@
     </div>
   </fieldset>
 
-  <fieldset>
-    <div class="textfield">
-      <input type="email" name="fields[email]"  placeholder="{{ i18n "yourEmail" }}"/>
-    </div>
-  </fieldset>
-
-  <fieldset>
-    <div class="textfield">
-      <input type="url" name="fields[website]"  placeholder="{{ i18n "yourWebsite" }}"/>
-    </div>
-  </fieldset>
-
   {{ if .Site.Params.staticman.recaptcha }}
   <fieldset>
     <div class="g-recaptcha" data-sitekey="{{ .Site.Params.staticman.recaptcha.sitekey }}"></div>
