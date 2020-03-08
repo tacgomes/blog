@@ -2,7 +2,7 @@
 
 ---
 
-Me boring blog.
+#FIXME blog.
 
 View it live at https://tacgomes.gitlab.io/blog
 
