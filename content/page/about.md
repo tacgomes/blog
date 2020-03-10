@@ -3,7 +3,7 @@ title: Tiago Gomes
 comments: false
 ---
 
-![Profile Picture](/blog/profile.png)
+![Profile Picture](/profile.png)
 
 Portuguese software engineer passionate about open source software.
 Exclusive Linux user since first contact in college. Initially with
