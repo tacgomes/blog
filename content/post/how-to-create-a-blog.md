@@ -53,14 +53,14 @@ project and repository interchangeably during this post.  Log in into your
 GitLab account, click on the plus button on the top bar, then _New Project_.
 Click on _Create from template_ and then chose _Pages/Hugo_ for the template.
 Give a name to your project and then click on _Create project_. You can chose a
-private visibility level without affecting how GitLab pages will work.
+private visibility level without affecting how GitLab Pages will work.
 
 After the project is created, go to _CI/CD_, _Pipelines_ and click on _Run
-Pipeline_. The pipeline will take a while to complete in the first deployment,
-but  after it finishes your website will be automatically published at the
+Pipeline_. The pipeline will take a while to complete in the first execution,
+but after it finishes your website will be automatically published at the
 following web address: `https://<username>.gitlab.io/<projectname>`, where
-`<username>` is your GitLab username and `<projectname>` is the name you gave
-to your project. Go ahead, try the web address!
+`<username>` is your GitLab username and `<projectname>` is the name that you
+gave to your project. Go ahead, try the web address!
 
 
 ## Configuration
