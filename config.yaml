@@ -4,6 +4,10 @@ metaDataFormat: yaml
 DefaultContentLanguage: en
 theme: beautifulhugo
 
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+pygmentsOptions: linenos=table
+
 Permalinks:
   post: '/:year/:month/:day/:filename/'
 
