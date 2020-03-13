@@ -82,30 +82,30 @@ between the two formats. This is an excerpt of the `config.yaml` that I use for
 my blog:
 
 
-```
-baseurl: 'https://tacgomes.gitlab.io/blog/'
-title: '#FIXME Blog'
-metaDataFormat: yaml
-DefaultContentLanguage: en
-theme: beautifulhugo
+```yaml
+baseurl: "https://tacgomes.gitlab.io/blog/"
+title: "#FIXME Blog"
+metaDataFormat: "yaml"
+DefaultContentLanguage: "en"
+theme: "beautifulhugo"
 
 Permalinks:
-  post: '/:year/:month/:day/:filename/'
+  post: "/:year/:month/:day/:filename/"
 
 Params:
-  dateFormat: 'January 2, 2006'
-  favicon: /blog/favicon.png
+  dateFormat: "January 2, 2006"
+  favicon: "/blog/favicon.png"
   rss: true
 
 Author:
-  name: Tiago Gomes
-  gitlab: tacgomes
-  linkedin: tiagoacgomes
+  name: "Tiago Gomes"
+  gitlab: "tacgomes"
+  linkedin: "tiagoacgomes"
 
 menu:
   main:
-    - name: About
-      url: page/about
+    - name: "About"
+      url: "page/about"
 ```
 
 At at the bare minimum, you should update `baseurl` with the web address where
@@ -143,13 +143,13 @@ staticman web service and is used for example to define where in the repository
 the comments should be saved and what the commit message look alike for adding
 a new comments. A minimal example of this file is:
 
-```
+```yaml
 comments:
-  branch: master
-  format: yaml
-  path: data/comments/{options.slug}
-  filename: comment-{@timestamp}
-  commitMessage : New comment from {fields.name}
+  branch: "master"
+  format: "yaml"
+  path: "data/comments/{options.slug}"
+  filename: "comment-{@timestamp}"
+  commitMessage: "New comment from {fields.name}"
   allowedFields:
     - name
     - comment
@@ -174,12 +174,12 @@ The beautifulhugo theme already has built-in support for staticman-based
 comments. All you have to do is setting the `comments` and `api` fields inside
 the `params` section of your `config.yaml`:
 
-```
+```yaml
 …
 params:
   comments: true
   staticman:
-    api: https://staticman3.herokuapp.com/v3/entry/gitlab/<username>/<projectname>/master/comments
+    api: "https://staticman3.herokuapp.com/v3/entry/gitlab/<username>/<projectname>/master/comments"
 …
 ```
 
