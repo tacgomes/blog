@@ -13,13 +13,13 @@ pre code.hljs {
 }
 
 .highlight div:first-child {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .highlight td:first-child pre, .highlight pre {
-  border-top-left-radius: 4px;
+  border-top-left-radius: 8px;
   border-top-right-radius: unset;
-  border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 8px;
   border-bottom-right-radius: unset;
   overflow: hidden;
 }
