@@ -4,7 +4,7 @@
 
 #FIXME blog.
 
-View it live at https://tacgomes.gitlab.io/blog
+View it live at <https://tacgomes.com>.
 
 ## Building locally
 
