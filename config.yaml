@@ -13,7 +13,7 @@ Permalinks:
 
 Params:
   dateFormat: 'January 2, 2006'
-  favicon: /blog/favicon.png
+  favicon: /favicon.png
   comments: true
   rss: true
   staticman:
