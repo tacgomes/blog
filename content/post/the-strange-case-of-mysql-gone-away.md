@@ -7,10 +7,9 @@ tags:
 ---
 
 A while ago, I had to track down the root cause for a strange issue observed in
-a Django-based service that I was involved with. This issue consisted in
-database operations systematically failing when the service was inactive
-for a long period. Whenever this happened, the following message appeared in
-the log:
+a Django-based service that I was involved with: our database operations were
+systematically failing when our service had been inactive for a long period.
+Whenever this happened, the following message appeared in the logs:
 
     OperationalError: (2006, 'MySQL server has gone away')
 
@@ -22,7 +21,7 @@ caused by the reuse of a persistent database connection which had timed out at
 the server side. This happens when the connection is inactive for a period
 longer than the value set for [wait_timeout]. However, as we were not setting a
 value for [CONN_MAX_AGE] in our Django configuration, we should not even being
-reusing a database connection in the first place - the default value for the
+reusing a database connection in the first place—the default value for the
 `CONN_MAX_AGE` setting is `0`, in which case the database connections should
 not persist.
 
@@ -38,7 +37,7 @@ signals.request_finished.connect(close_old_connections)
 This was the gist of the problem. Our service was a simple Django management
 command which consumed requests from a Kafka queue. As it never received any
 HTTP traffic, those signals would never be triggered and the old database
-connection would never be closed. This led to Django to continuously reuse the
+connection would never be closed. This caused Django to continuously reuse the
 same connection in the subsequent database operations, even when it had
 possibly timed out due inactivity.
 
@@ -57,8 +56,6 @@ db.close_old_connections()
 
 MyModel.objects.get(…)
 ```
-
-I hope you find this useful if facing the same situation.
 
 [CONN_MAX_AGE]: https://docs.djangoproject.com/en/2.2/ref/settings/#conn-max-age
 [wait_timeout]: https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_wait_timeout
