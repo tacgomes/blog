@@ -16,7 +16,7 @@ Most blog websites sites are created and hosted using [WordPress]. Even though I
 confess I never used it, wouldn't it be better if instead of storing our web
 content in some relational database that we may not have directly access to, and
 which we need to remember to create regular backups, we stored it in a git
-repository instead? Letting us to easily inspect the revisions made so far and
+repository instead? Enabling us to easily inspect the revisions made so far and
 have the content always safeguarded in the remote repository at the cost of a
 mere `git push`?
 
