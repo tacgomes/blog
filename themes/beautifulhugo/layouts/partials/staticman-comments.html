@@ -33,8 +33,6 @@
     {{ end }}
   {{ end }}
 
-
-
 <form class="js-form form" method="post" action="{{ .Site.Params.staticman.api }}">
   <input type="hidden" name="options[slug]" value="{{ replace .RelPermalink "/" "" }}">
   <input type="hidden" name="options[parent]" value="">
@@ -46,13 +44,13 @@
 
   <fieldset>
   <div class="textfield">
-    <textarea name="fields[comment]" placeholder="{{ i18n "useMarkdown" }}"></textarea>
+    <textarea name="fields[comment]" rows="2" placeholder="Leave a comment" class="form-control"></textarea>
   </div>
   </fieldset>
 
   <fieldset>
     <div class="textfield">
-      <input name="fields[name]" type="text" placeholder="{{ i18n "yourName" }}"/>
+      <input name="fields[name]" type="text" placeholder="Enter your name (optional)" class="form-control"/>
     </div>
   </fieldset>
 
@@ -63,9 +61,7 @@
   {{ end }}
 
   <fieldset>
-    <button class="button">
-      Submit
-    </button>
+    <button type="button" class="btn btn-primary">Submit</button>
   </fieldset>
 </form>
 </section>

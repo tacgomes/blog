@@ -19,23 +19,8 @@
     width: 100%;
 }
 
-.staticman-comments input {
-    border: 1px solid rgba(0,0,0,0.12);
-    padding: 4px 5px;
-    width: 100%;
-}
-
-
 .staticman-comments .g-recaptcha {
     padding: 0.5rem 0;
-}
-
-.staticman-comments textarea {
-    border: 1px solid rgba(0,0,0,0.12);
-    padding: 4px 5px;
-    vertical-align: top;
-    height: 10em;
-    width: 100%;
 }
 
 .staticman-comments .comment-avatar {
