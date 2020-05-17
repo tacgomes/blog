@@ -375,19 +375,15 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta,
 .page-meta {
-  color: #808080;
-  font-size: 18px;
-  font-style: italic;
+  color: #767676;
+  font-size: 15px;
+  font-weight: 80;
+  font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 0 0 10px;
+  text-transform: uppercase;
 }
 .page-meta {
   align-self: center;
-}
-.post-preview .post-meta a,
-.post-heading .post-meta a,
-.page-meta a {
-  color: #404040;
-  text-decoration: none;
 }
 .post-preview .post-entry {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
