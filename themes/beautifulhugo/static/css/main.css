@@ -411,9 +411,11 @@ footer .theme-by {
   height: 192px;
   width: 192px;
 }
+.post-preview .div-read-more {
+  padding-top: 5px;
+}
 .post-preview .post-read-more {
-  font-weight: 800;
-  float: right;
+  color: #008AFF;
 }
 
 @media only screen and (min-width: 768px) {
