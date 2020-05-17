@@ -49,7 +49,7 @@
 
 # Staticman
 - id: noComment
-  translation: "No comment"
+  translation: "No comments"
 - id: oneComment
   translation: "comment"
 - id: moreComment
