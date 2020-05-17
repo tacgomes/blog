@@ -82,7 +82,7 @@ fragment of the `config.yaml` that I use for my blog:
 
 ```yaml
 baseurl: "https://tacgomes.gitlab.io/blog/"
-title: "#FIXME Blog"
+title: "tacgomes"
 metaDataFormat: "yaml"
 DefaultContentLanguage: "en"
 theme: "beautifulhugo"

@@ -1,5 +1,5 @@
 baseurl: 'https://tacgomes.com'
-title: '#FIXME Blog'
+title: 'tacgomes'
 metaDataFormat: yaml
 DefaultContentLanguage: en
 theme: beautifulhugo
