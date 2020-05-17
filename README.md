@@ -2,9 +2,7 @@
 
 ---
 
-#FIXME blog.
-
-View it live at <https://tacgomes.com>.
+Repository for the tacgomes blog. View it live at <https://tacgomes.com>.
 
 ## Building locally
 
