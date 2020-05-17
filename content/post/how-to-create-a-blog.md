@@ -37,7 +37,7 @@ in the posts. In a later [section](#staticman-integration), I explain how it is
 possible to support comments even in static websites.
 
 
-## Creating a Project from a Hugo Template
+### Creating a Project from a Hugo Template
 
 There are plenty of static site generators and [Jekyll] seems the most popular
 option. I didn't want to install all the Ruby stack in my machine though, so I
@@ -65,7 +65,7 @@ The `tacgomes` is my GitLab username and `blog` is the name that I gave to my
 project.
 
 
-## Configuration
+### Configuration
 
 Hugo makes previewing locally any changes to the website very easy. All I had to
 do was to clone the repository, change to its directory, and start the web
@@ -118,7 +118,7 @@ rendered locally and the content rendered on the server, I changed my
 Hugo installed in my workstation.
 
 
-## Staticman Integration
+### Staticman Integration
 
 As I mentioned before, static websites do not support commenting on posts as
 there isn't a [CGI] application running in the server that could handle the form
@@ -174,7 +174,7 @@ GitLab page for my project, I clicked on **Settings > Members** and then
 searched for the `staticmanlab` user and gave him **Developer** permissions.
 
 
-## Adding a Custom Domain
+### Adding a Custom Domain
 
 GitLab Pages supports configuring a custom domain to make the website available
 using, for example, the `https://tacgomes.com`, `https://www.tacgomes.com`, or
