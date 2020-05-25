@@ -4,6 +4,8 @@ metaDataFormat: yaml
 DefaultContentLanguage: en
 theme: beautifulhugo
 
+googleAnalytics: UA-167560638-1
+
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 pygmentsOptions: linenos=table
