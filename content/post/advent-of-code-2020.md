@@ -14,17 +14,16 @@ It was a mostly fun activity, practicing some problem solving that is
 not always exercised at work, and refreshing on Computer Science
 fundamentals that time faded away.
 
-Sometimes it felt a bit exhausting solving these puzzles, particularly
-after a busy day at work. Some of the puzzles were quick to solve but
-some of them could be very time consuming (I am looking at you _Day 20_
-puzzle!).
+However, it felt sometimes a bit exhausting solving these puzzles for twenty
+five consecutive days. This was particularly true after a busy day at work.
+Some of the puzzles were quick to solve, but some of them could become a very
+time consuming activity (I am looking at you _Day 20_ puzzle!).
 
-As last year I started to learn Rust, I decided to use the Advent of
-Code to sharpen my Rustacean skills. As a result, it took me longer to
-solve the puzzles than what it would take if I used Python or C++ (damn
-you borrow checker!). All this additional time spent in the puzzles due
-some level of unfamiliarity with the language contributed to my feeling
-of tiredness at the end.
+As last year I started to learn Rust, I decided to use the Advent of Code to
+sharpen my Rustacean skills. As a result, it took me longer to solve the
+puzzles than what it would take if I used Python or C++ (damn you borrow
+checker!). All this additional time spent in the puzzles due some level of
+unfamiliarity with the language contributed to my energyless finale.
 
 I am glad that I participated though. I learned about new theorems and
 algorithms and I became much more acquainted with writing Rust code in a
